@@ -1,0 +1,8 @@
+apiVersion: paradigma/v1
+kind: ephemeral-eks-cluster-claim
+metadata:
+  name: dev-team-a
+  labels:
+    cluster-owner: dev-team-a
+spec:
+  name: dev-team-a
